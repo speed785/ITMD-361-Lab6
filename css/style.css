@@ -1,15 +1,20 @@
 /*For Navigation*/
 
+/*Nav bar blue bar*/
 #main-navbar {
     background-color: blue;
     width: 100%;
     overflow: hidden;
     position: relative;
+}
+/*nav bar text position*/
+#navbar-container {
+    position: relative;
     display: block;
     float: left;
     left: 50%;
 }
-
+/*Nav bar list (dots) as well as centering*/
 #navbar-container ul {
     list-style-type: none;
     margin: 0;
@@ -19,24 +24,26 @@
     float: left;
     right: 50%;
 }
-
+/*nav bar displays text from left to right*/
 #navbar-container ul li {
     float: left;
     padding: 10px 20px;
 }
-
+/*Nav bar text*/
 #navbar-container ul li a {
     text-decoration: none;
     color: #fff;
 }
-
-#onpage {
+/*lines above and below nav bar*/
+#navbar-container #onpage {
     text-decoration: underline overline;
 }
 
+/*--------------------------------------------------------------------*/
 
 /*For Sidebar*/
 
+/*Red side bar box with position*/
 #sidebar {
     position: fixed;
     right: 0%;
@@ -44,23 +51,22 @@
     height: 100%;
     width: 20%;
 }
-
+/*side bar text position*/
 #sidebar-container {
     text-align: center;
     display: block;
 }
-
+/*removes the list (dots)*/
 #sidebar-container ul {
     list-style-type: none;
     padding: 0;
 }
-
+/*Spacing in between the clickable links*/
 #sidebar-container ul li {
     padding: 15px 0;
 }
-
+/*side bar text color*/
 #sidebar-container ul li a {
     text-decoration: none;
     color: #fff;
-    background-color:#000;
 }
